@@ -10,5 +10,5 @@
 h1,
 h2,
 .special-element {
-  font-family: "Roto Serif", "Times New Roman" serif;
+  font-family: "Roto Serif", "Times New Roman", Times, serif;
 }
