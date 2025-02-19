@@ -4,11 +4,14 @@
   background-image: url(../images/background_header.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 800px;
   position: relative;
   flex-direction: column;
   margin: 0;
   padding: 30px 80px 40px;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
 .header__image {
@@ -17,6 +20,7 @@
   position: absolute;
   right: 5px;
   top: 124px;
+  z-index: -1;
 }
 
 .header__title {
@@ -31,9 +35,10 @@
 }
 
 .header__span-accent {
+  font-weight: 400;
   color: #3f96f3;
   font-style: italic;
-  font-family: "Roto Serif";
+  font-family: "Roto Serif", "Times New Roman", serif;
   display: block;
 }
 
